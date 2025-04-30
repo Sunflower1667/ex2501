@@ -1,7 +1,7 @@
 /* 전체 배경 */
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #e8f5e9; /* 연한 녹색 */
+    background-color: #fce4ec; /* 연한 핑크 */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -21,7 +21,7 @@ body {
 
 /* 제목 */
 h1 {
-    color: #388e3c; /* 진한 녹색 */
+    color: #ad1457; /* 진한 핑크 */
 }
 
 /* 입력 필드 & 버튼 */
@@ -34,12 +34,12 @@ h1 {
 input {
     flex: 1;
     padding: 8px;
-    border: 2px solid #81c784;
+    border: 2px solid #f48fb1; /* 중간 핑크 */
     border-radius: 5px;
 }
 
 button {
-    background-color: #66bb6a; /* 버튼 녹색 */
+    background-color: #ec407a; /* 밝은 핑크 */
     color: white;
     border: none;
     padding: 8px 12px;
@@ -48,7 +48,7 @@ button {
 }
 
 button:hover {
-    background-color: #4caf50;
+    background-color: #d81b60; /* 진한 핑크 */
 }
 
 /* 할 일 목록 스타일 */
@@ -62,7 +62,7 @@ ul {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: #c8e6c9;
+    background-color: #f8bbd0; /* 연한 핑크 배경 */
     padding: 8px;
     margin-bottom: 5px;
     border-radius: 5px;
@@ -70,7 +70,7 @@ ul {
 
 .todo-item.completed span {
     text-decoration: line-through;
-    color: #666;
+    color: #888;
 }
 
 /* 삭제 버튼 */
@@ -79,8 +79,8 @@ ul {
     border: none;
     cursor: pointer;
     font-size: 16px;
-    color: #d32f2f;
+    color: #c2185b;
 }
 .delete-btn:hover {
-    color: #b71c1c;
+    color: #880e4f;
 }
